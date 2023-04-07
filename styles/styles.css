@@ -9,7 +9,7 @@
 }
 
 html, body{
-    background-color: bisque;
+    background-color: deepskyblue;
     height: 100%;
     margin: 0;
 }
@@ -20,7 +20,8 @@ html, body{
     width: 100%;
     display: grid;
     /* grid-template-columns: 300px 200px; */
-    grid-template-columns: 2fr 1fr;
+    /* grid-template-columns: 2fr 1fr; */
+    grid-template-columns: repeat(4, 150px);
 }
 
 .grid-item{
